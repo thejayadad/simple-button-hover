@@ -21,8 +21,7 @@
             width: 150px;
             border-radius: 15px;
         }
-
-        .btn::before{
+        .btn::before {
             content: "";
             position: absolute;
             background: orangered;
@@ -31,16 +30,17 @@
             top: 0;
             bottom: 0;
         }
-        .btn:hover::before{
+
+        .btn:hover::before {
             left: calc(100% + 10px);
-            transition: left 500ms;        
-            
+            transition: left 500ms;
         }
+   
+    
+    
     </style>
 </head>
 <body>
     <button class="btn">Shop Now</button>
-    <script src="main.js">
-    </script>
 </body>
 </html>
